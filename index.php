@@ -1,24 +1,20 @@
-
-<?php
-$nama=  "ISKANDAR  ZULKARNAIN  BIN ZAHARIMY";
-$nomatrik="18DIT24F1140";
-$kelas="DIT4D";
-?>
+<?php include 'biodata.php'; ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Maklumat Pelajar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <h2 class="fw-bold mb-4">Profil Diri</h2>
 
-<h1>Maklumat Pelajar</h1>
+    <img src="profile2.jpeg" alt="Gambar Pelajar">
 
-<img src="gambar.jpeg" alt="foto saya" width="200">
-
-<p>Nama: <?= $nama ?></p>
-<p>No Matrik: <?= $nomatrik ?></p>
-<p>Kelas: <?= $kelas ?></p>
-
+    <p>NAMA: <?= $nama ?></p>
+    <p>NO MATRIK: <?= $nomatrik ?></p>
+    <p>KELAS: <?= $kelas ?></p>
+    
 </body>
-</html>
