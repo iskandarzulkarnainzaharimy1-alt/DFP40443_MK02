@@ -1,4 +1,4 @@
 <?php
-$nama = "ADAM MIFZAL BIN MOHD FAIZAL";
-$nomatrik = "18DIT24F1139";
-$kelas = "DIT4C (SW_G2)";
+$nama = "ISKANDAR ZULKARNAIN BIN ZAHARIMY";
+$nomatrik = "18DIT24F1140";
+$kelas = "DIT4D (SW_G2)";
